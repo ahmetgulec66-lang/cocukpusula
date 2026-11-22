@@ -1,11 +1,17 @@
+
 name: cocukpusula
-description: CocukPusula interaktif hikaye prototipi
-publish_to: none
-version: 0.1.0+1
+description: CocukPusula interaktif hikaye uygulamasi
+publish_to: 'none'
+version: 0.2.0+2
+
 environment:
   sdk: '>=3.3.0 <4.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
+  shared_preferences: ^2.3.2
+
 flutter:
   uses-material-design: true
+
